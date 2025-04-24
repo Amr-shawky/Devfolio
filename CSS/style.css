@@ -1,0 +1,23 @@
+.nav-link { 
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: white;
+}
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../Assets/Images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.nav-item{
+    padding-left: 20px;
+}
+
+.home-title{
+    font-size: 78px;
+}
