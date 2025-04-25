@@ -190,3 +190,14 @@
 .fs-3rem{
     font-size: 3rem !important;
 }
+.border-10{
+    border-width: 10px !important;
+}
+
+.p-35{
+    padding: 35px !important;
+}
+.card{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    border: 0;
+}
