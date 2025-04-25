@@ -21,3 +21,153 @@
 .home-title{
     font-size: 78px;
 }
+
+.home-title::after{
+    content: '|';
+    display: inline-block;
+    font-size: 40px;
+    width: 100%;
+    height: 5px;
+    margin-top: 10px;
+    animation-name: typewriter ;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes cursor{
+    0% {border-right: 3px solid #fff;
+         opacity: 1; }
+    10% { border-right: 3px solid #fff;
+        opacity: 1; }
+    12% { border-right: 3px solid #fff;
+        opacity: 0; } 
+    14% { border-right: 3px solid #fff;
+        opacity: 1; }
+    16% { border-right: 3px solid #fff;
+        opacity: 0; }
+}
+@keyframes typewriter {
+    /* Freelancer */
+    0%  { content: '|'; }
+    1%  { content: 'F|'; }
+    2%  { content: 'Fr|'; }
+    3%  { content: 'Fre|'; }
+    4%  { content: 'Free|'; }
+    5%  { content: 'Freel|'; }
+    6%  { content: 'Freela|'; }
+    7%  { content: 'Freelan|'; }
+    8%  { content: 'Freelanc|'; }
+    9%  { content: 'Freelance|'; }
+    10% { content: 'Freelancer'; }
+    12% { content: 'Freelancer';  }
+    14% { content: 'Freelancer'; }
+    16% { content: 'Freelancer'; }
+    18% { content: 'Freelancer|'; }
+    19% { content: 'Freelance|'; }
+    20% { content: 'Freelanc|'; }
+    21% { content: 'Freelan|'; }
+    22% { content: 'Freela|'; }
+    23% { content: 'Freel|'; }
+    24% { content: 'Free|'; }
+    25% { content: 'Fre|'; }
+    26% { content: 'Fr|'; }
+    27% { content: 'F|'; }
+    28% { content: '|';}
+    30% { content: '';
+        height: 5px;
+    }
+    32%  { content: '|'; }
+    /* Photographer */
+    28%  { content: 'P|'; }
+    29%  { content: 'Ph|'; }
+    30%  { content: 'Pho|'; }
+    31%  { content: 'Phot|'; }
+    32%  { content: 'Photo|'; }
+    33%  { content: 'Photog|'; }
+    34%  { content: 'Photogr|'; }
+    35%  { content: 'Photogra|'; }
+    36%  { content: 'Photograp|'; }
+    37%  { content: 'Photograph|'; }
+    38%  { content: 'Photographe|'; }
+    39%  { content: 'Photographer|'; }
+    42%  { content: 'Photographe|'; }
+    43%  { content: 'Photograph|'; }
+    44%  { content: 'Photograp|'; }
+    45%  { content: 'Photogra|'; }
+    46%  { content: 'Photogr|'; }
+    47%  { content: 'Photog|'; }
+    48%  { content: 'Photo|'; }
+    49%  { content: 'Phot|'; }
+    50%  { content: 'Pho|'; }
+    51%  { content: 'Ph|'; }
+    52%  { content: 'P|'; }
+    53%  { content: '|'; }
+    54%  { content: '';
+        height: 5px;
+    }
+    56%  { content: '|';}
+    58%  { content: '';
+        height: 5px;
+    }
+    58%  { content: '|';}
+    /* Designer */
+    59%  { content: 'D|'; }
+    60%  { content: 'De|'; }
+    61%  { content: 'Des|'; }
+    62%  { content: 'Desi|'; }
+    63%  { content: 'Desig|'; }
+    64%  { content: 'Design|'; }
+    65%  { content: 'Designe|'; }
+    66%  { content: 'Designer|'; }
+    67%  { content: 'Designer'; }
+    68%  { content: 'Designer|'; }
+    69%  { content: 'Designe|'; }
+    70%  { content: 'Design|'; }
+    71%  { content: 'Desig|'; }
+    72%  { content: 'Desi|'; }
+    73%  { content: 'Des|'; }
+    74%  { content: 'De|'; }
+    /* Develope|r */
+    75% { content: 'Dev|'; }
+    76% { content: 'Deve|'; }
+    77% { content: 'Devel|'; }
+    78% { content: 'Develo|'; }
+    79% { content: 'Develop|'; }
+    80% { content: 'Develope|'; }
+    81% { content: 'Developer|'; }
+    82% { content: 'Developer '; }
+    83% { content: 'Developer|'; }
+    84% { content: 'Develope|'; }
+    85% { content: 'Develop|'; }
+    86% { content: 'Develo|'; }
+    87% { content: 'Devel|'; }
+    88% { content: 'Deve|'; }
+    89% { content: 'Dev|'; }
+    90% { content: 'De|'; }
+    91%{ content: 'D|'; }
+    92%{ content: '|';}
+    94%{ content: '';
+        height: 5px;
+    }
+    96%{ content: '|';}
+    98%{ content: '';
+        height: 5px;
+    }
+    100%{ content: '|';}
+  }
+
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    display: none;
+  }
+  
+  .dropdown-submenu:hover .dropdown-menu {
+    display: block;
+  }
+  
