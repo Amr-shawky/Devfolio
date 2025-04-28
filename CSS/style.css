@@ -152,3 +152,7 @@
 .info p{
     color: #4e4e4e !important;
 }
+
+.bg-primary-darken{
+    background-color: #0062D3 !important;
+}
