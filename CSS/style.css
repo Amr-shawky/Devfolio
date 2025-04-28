@@ -53,6 +53,10 @@
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }  
 
+.personal-info .img img{
+    width: 150px;
+    height: 150px;
+}
 
 .bg-opacity-90 {
     --bs-bg-opacity: 0.90;
@@ -110,4 +114,38 @@
 #carouselExampleIndicators .carousel-indicators button{
     width: 12px;
     height: 12px;
+}
+.h-15{
+    height: 10% !important;
+}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+.testimonial-box .author {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+.px-13{
+    padding-left: 13rem !important;
+    padding-right: 13rem !important;
+}
+
+.mb-50{
+    margin-bottom: 35px !important;
+}
+.w-5{
+    width: 35px !important;
+}
+.post-author :hover{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
