@@ -149,3 +149,6 @@
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
+.info p{
+    color: #4e4e4e !important;
+}
