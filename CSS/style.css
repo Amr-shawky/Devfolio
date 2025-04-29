@@ -36,9 +36,14 @@
 }  
   .dropdown-submenu .dropdown-menu {
     top: 0;
-    left: 100%;
-    margin-top: -1px;
+    right: 100%;
+    margin-top: 3px;
     display: none;
+  }
+  .dropdown-item{
+    color: #4e4e4e !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
   }
   
   .dropdown-submenu:hover .dropdown-menu {
@@ -155,4 +160,28 @@
 
 .bg-primary-darken{
     background-color: #0062D3 !important;
+}
+#navbarSupportedContent .nav-item .nav-link {
+    position: relative; /* مهم علشان ::after يتظبط جوه العنصر */
+}
+
+#navbarSupportedContent .nav-item .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    opacity: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.8s ease;
+}
+
+#navbarSupportedContent .nav-item .nav-link:hover::after {
+    opacity: 1;
+    width: 100%;
+}
+.fs-7{
+    font-size: 0.75rem !important;
 }
