@@ -185,3 +185,23 @@
 .fs-7{
     font-size: 0.75rem !important;
 }
+
+
+
+#services .col:hover i{
+    transition: all 500ms ease;
+    color: #fff !important;
+    background-color: #0078ff !important;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+#work .card a{
+    display: block;
+    overflow: hidden;
+}
+#work .card a img{
+    transition: all 0.5s ease;
+}
+#work .card:hover img{
+    transform: scale(1.3);
+}
