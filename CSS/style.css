@@ -1,54 +1,59 @@
-.nav-link { 
+.nav-link {
     color: white;
     font-size: 16px;
     font-weight: 600;
 }
+
 .nav-link:hover {
     color: white;
 }
 
-#home{
+#home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../Assets/Images/hero-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
-.nav-item{
+
+.nav-item {
     padding-left: 20px;
 }
 
-.home-title{
+.home-title {
     font-size: 78px;
 }
 
-.home-title::after{
+.home-title::after {
     content: '|';
     display: inline-block;
     font-size: 40px;
     width: 100%;
     height: 5px;
     margin-top: 10px;
-    animation-name: typewriter ;
-    animation-duration: 10s ;
+    animation-name: typewriter;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: normal;
-}  
-  .dropdown-submenu .dropdown-menu {
+}
+
+.dropdown-submenu .dropdown-menu {
     top: 0;
     right: 100%;
     margin-top: 3px;
     display: none;
-  }
-  .dropdown-item{
+}
+
+.dropdown-item {
     color: #4e4e4e !important;
     font-size: 15px !important;
     font-weight: 600 !important;
-  }
-  
-  .dropdown-submenu:hover .dropdown-menu {
+}
+
+.dropdown-submenu:hover .dropdown-menu {
     display: block;
-  }
+}
+
 .box-shadow-full {
     padding: 3rem 1.25rem;
     position: relative;
@@ -56,9 +61,9 @@
     margin-bottom: 3rem;
     z-index: 2;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-}  
+}
 
-.personal-info .img img{
+.personal-info .img img {
     width: 150px;
     height: 150px;
 }
@@ -66,25 +71,29 @@
 .bg-opacity-90 {
     --bs-bg-opacity: 0.90;
 }
+
 .text-tertiary {
     color: #4e4e4e !important;
 }
 
-.fs-3rem{
+.fs-3rem {
     font-size: 3rem !important;
 }
-.border-10{
+
+.border-10 {
     border-width: 10px !important;
 }
 
-.p-35{
+.p-35 {
     padding: 35px !important;
 }
-.px-30{
+
+.px-30 {
     padding-left: 30px !important;
     padding-right: 30px !important;
 }
-.card{
+
+.card {
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
     border: 0;
 }
@@ -93,12 +102,14 @@
     position: relative;
     padding: 8rem 0;
 }
+
 .bg-image {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
 }
+
 .overlay-mf {
     position: absolute;
     top: 0;
@@ -109,18 +120,21 @@
     opacity: 0.7;
     background-color: #0078ff;
 }
-.mneg{
+
+.mneg {
     margin-top: -50px !important;
 }
-.pe-6{
-    padding-right:70px !important;
+
+.pe-6 {
+    padding-right: 70px !important;
 }
 
-#carouselExampleIndicators .carousel-indicators button{
+#carouselExampleIndicators .carousel-indicators button {
     width: 12px;
     height: 12px;
 }
-.h-15{
+
+.h-15 {
     height: 10% !important;
 }
 
@@ -139,30 +153,36 @@
     display: block;
     font-size: 1.4rem;
 }
-.px-13{
+
+.px-13 {
     padding-left: 13rem !important;
     padding-right: 13rem !important;
 }
 
-.mb-50{
+.mb-50 {
     margin-bottom: 35px !important;
 }
-.w-5{
+
+.w-5 {
     width: 35px !important;
 }
-.post-author :hover{
+
+.post-author :hover {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
-.info p{
+
+.info p {
     color: #4e4e4e !important;
 }
 
-.bg-primary-darken{
+.bg-primary-darken {
     background-color: #0062D3 !important;
 }
+
 #navbarSupportedContent .nav-item .nav-link {
-    position: relative; /* مهم علشان ::after يتظبط جوه العنصر */
+    position: relative;
+    /* مهم علشان ::after يتظبط جوه العنصر */
 }
 
 #navbarSupportedContent .nav-item .nav-link::after {
@@ -182,26 +202,31 @@
     opacity: 1;
     width: 100%;
 }
-.fs-7{
+
+.fs-7 {
     font-size: 0.75rem !important;
 }
 
-
-
-#services .col:hover i{
+#services .col:hover i {
     transition: all 500ms ease;
     color: #fff !important;
     background-color: #0078ff !important;
     box-shadow: 0 0 0 10px #cde1f8;
 }
 
-#work .card a{
+#work .card a {
     display: block;
     overflow: hidden;
 }
-#work .card a img{
+
+#work .card a img {
     transition: all 0.5s ease;
 }
-#work .card:hover img{
+
+#work .card:hover img {
     transform: scale(1.3);
+}
+
+#blog img:hover{
+    cursor: pointer;
 }
