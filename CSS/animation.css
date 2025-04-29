@@ -83,7 +83,7 @@
     63%  { content: 'Desig|'; }
     64%  { content: 'Design|'; }
     65%  { content: 'Designe|'; }
-    66%  { content: 'Designer|'; }
+    66%  { content: 'Designer '; }
     67%  { content: 'Designer'; }
     68%  { content: 'Designer|'; }
     69%  { content: 'Designe|'; }
@@ -99,9 +99,9 @@
     78% { content: 'Develo|'; }
     79% { content: 'Develop|'; }
     80% { content: 'Develope|'; }
-    81% { content: 'Developer|'; }
+    81% { content: 'Developer '; }
     82% { content: 'Developer '; }
-    83% { content: 'Developer|'; }
+    83% { content: 'Developer '; }
     84% { content: 'Develope|'; }
     85% { content: 'Develop|'; }
     86% { content: 'Develo|'; }
