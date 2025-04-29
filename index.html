@@ -172,7 +172,7 @@
                         </span>
                     </span>
                 </div>
-                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col">
                         <div
                             class="rounded-4 mb-5 py-4 px-3 card d-flex flex-column justify-content-center align-items-center text-center">
@@ -280,7 +280,7 @@
     <div class="counter-section paralax-mf bg-image" style="background-image: url(./Assets/Images/counters-bg.jpg);">
         <div class="overlay-mf"></div>
         <div class="container position-relative">
-            <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
                 <div class="col mb-3">
                     <div class="counter-box text-white text-center pt-4 pt-md-0">
                         <div class="counter-ico p-1">
@@ -353,7 +353,7 @@
                     </span>
                 </span>
             </div>
-            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-5 py-3">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-5 py-3">
                 <div class="col g-5 px-3">
                     <div class="card">
                         <figure>
@@ -523,8 +523,8 @@
                                     alt="...">
                                 <span class="author text-center">Xavi Alonso</span>
                             </div>
-                            <div class="content-test pb-3">
-                                <p class="description lead px-13 ">
+                            <div class="content-test pb-3 d-flex justify-content-center">
+                                <p class="description lead col-lg-8 col-md-10 col-sm-12 col-12 ">
                                     Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor
                                     sit amet,
                                     consectetur adipiscing elit.
@@ -540,8 +540,8 @@
                                     alt="...">
                                 <span class="author text-center">Marta Socrate</span>
                             </div>
-                            <div class="content-test pb-3">
-                                <p class="description lead px-13">
+                            <div class="content-test pb-3 d-flex justify-content-center">
+                                <p class="description lead col-lg-8 col-md-10 col-sm-12 col-12 ">
                                     Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor
                                     sit amet,
                                     consectetur adipiscing elit.
@@ -576,7 +576,7 @@
                     </span>
                 </span>
             </div>
-            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 py-3">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 py-3">
                 <div class="col py-3">
                     <div class="card border border-1 g-2">
                         <img src="./Assets/Images/post-1.jpg" class="card-img-top" alt="...">
@@ -664,43 +664,55 @@
         <div class="overlay-mf"></div>
         <div class="container bg-white z-3 position-relative p-3">
             <div class="row row-cols-lg-2 row-cols-xl-2 row-xxl-lg-2 row-cols-sm-1 row-cols-1 row-cols-md-1 ">
-                <div class="col py-5 ps-5">
-                    <div class="title-box-2 pb-4">
+                <div class="col py-5 ps-2 ps-lg-5">
+                    <div class="title-box-2 pb-2">
                         <h5 class="title-left h2">
                           Send Message Us
                         </h5>
+                        <span class=" line d-flex justify-content-start p-0 m-0 pb-4">
+                            <span
+                                class="p-0 mneg border border-3 border-top-0 border-start-0 border-end-0 border-bottom border-primary text-center">
+                                <p class="p-0 m-0 opacity-0">Lorem ipsumd</p>
+                            </span>
+                        </span>
                       </div>
                       <div>
                         <form>
                             <div class="row">
-                                <div class="col-md-12 mb-3">
+                                <div class="col-md-12 mb-3 fw-medium">
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Email" required="">
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Subject" required="">
                                 </div>
                                 <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required="" style="height: 326px;"></textarea>
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required="" style="height: 136px;"></textarea>
                                 </div>
-                                <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                    <button type="submit" class="btn btn-primary rounded-pill">Send Message</button>
+                                <div class="col-md-12 d-flex justify-content-center align-items-center pt-4">
+                                    <button type="submit" class="fw-light fs-5 px-4 py-2 btn btn-primary rounded-pill">Send Message</button>
                                 </div>
                             </div>
                         </form>
                       </div>
                 </div>
                 <div class="col py-5 px-3">
-                    <div class="text-box pb-4">
+                    <div class="text-box pb-3">
                         <h5 class="title-left h2">
                             Get in Touch
                           </h5>
+                          <span class=" line d-flex justify-content-start p-0 m-0 pb-2">
+                            <span
+                                class="p-0 mneg border border-3 border-top-0 border-start-0 border-end-0 border-bottom border-primary text-center">
+                                <p class="p-0 m-0 opacity-0">Lorem ipsumd</p>
+                            </span>
+                        </span>
                     </div>
                     <div class="contact-info text-body-tertiary">
                         <div class="row d-flex flex-column justify-content-start align-content-start">
-                            <p class="fs-5 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                            <p class="fs-5 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
                             <div class="row d-flex flex-column justify-content-start align-content-start">
                                 <div class="info d-flex ">
                                     <i class="pt-1 text-primary fa-solid fa-location-dot"></i>
